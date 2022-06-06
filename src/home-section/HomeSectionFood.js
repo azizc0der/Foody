@@ -18,15 +18,15 @@ const HomeSectionFood = () => {
     }
   }, [index, foods]);
 
-  // useEffect(() => {
-  //       let slider = setInterval(() => {
-  //         setIndex(index + 1)
-  //       }, 3500);
+  useEffect(() => {
+        let slider = setInterval(() => {
+          setIndex(index + 1)
+        }, 3500);
 
-  //       return () => {
-  //         clearInterval(slider)
-  //       }
-  //     }, [index])
+        return () => {
+          clearInterval(slider)
+        }
+      }, [index])
 
   return (
     <section className="food-container">

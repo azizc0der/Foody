@@ -14,13 +14,6 @@ const foodData = [
     name: "I am A Blogger & I Love Foods",
     info: "A small river named Duden flows by their place and supplies it with the necessary regelialia",
   },
-  {
-    id: 3,
-    img: "https://post.healthline.com/wp-content/uploads/2020/09/healthy-eating-ingredients-732x549-thumbnail.jpg",
-    title: "Random name",
-    name: "Random name",
-    info: "A small river named Duden flows by their place and supplies it with the necessary regelialia",
-  },
 ];
 
 export default foodData;
